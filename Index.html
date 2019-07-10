@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Quiz</title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+    </head>
+            
+    <body>
+        <div>
+         <h1>RANDOM QUIZ</h1>
+         <hr>
+            
+        <h2>Question 1</h2>
+            <p><b>What country uses the flag below? </b>
+            (<a href="https://www.canada.ca/en.html" >HINT</a>)
+            </p>
+            <img src="Media/Canada Flag.png"  alt="Canada Flag" width="400px" height="200px">
+            <p>Answer:<input id="inputQ1" type="text"></p>
+            <p id= 'CA1'></p>
+            <hr>
+            
+        <h2>Question 2</h2>
+            <p><b>Which of the flowing is not a piece used in Chess?</b></p>
+            <ul>
+                <li>Pawn</li>
+                <li>Knight</li>
+                <li>Cardinal</li>
+                <li>Queen</li>
+                <li>King</li>
+            </ul>
+            <p>Answer:<input id="inputQ2" type="text"></p>
+            <p id= 'CA2'></p>
+            <hr>
+            
+        <h2>Question 3</h2>
+            <img src='po.png'>
+            <p><b>What is the name of character that is yelling at Po (The Kung Fu Panda) in the following clip? </b></p>
+            <p>
+                <audio controls>
+                <source src="Media/he-could-have-killed-you-why-didn't-he-so-you-could-come-back-and-strike-fear-into-our-hearts-but-it-won't-work-it-might-i-mean-a-little-i'm-pretty-scared.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+                </audio>
+            </p>
+            <p>Answer:<input id="inputQ3" type="text"></p>
+            <p id= 'CA3'></p>
+            <hr>
+
+        <h2>Question 4</h2>
+            <img src= "Media/harry-ainlay.jpg" >
+            <p><b> What year was Harry Ainlay High School founded ?</b></p>
+            <p>Answer:<input id="inputQ4" type="number"></p>
+            <p id= 'CA4'></p>
+            <hr>
+
+        <h2>Results</h2>
+            <p><button id='button' >Mark Quiz</button> <b>Your score is <span id='score'>__</span> /4 (<span id='percent'>__</span>%)</b></p>
+            <b><div id='scoreComment'></div></b>
+        
+            <!-- LOADING JAVA-->
+            <script src='main.js'></script>
+        </div>
+    </body>
+            
+</html>

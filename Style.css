@@ -1,0 +1,93 @@
+div {
+    background-color: rgb(255, 255, 255, 0.95) ;
+    padding: 20px 150px ;
+    width: 600px;
+    margin: auto;
+}
+
+body {
+    background-image: "";
+    letter-spacing: 0.5px;
+    margin: 0 auto
+}
+html {
+    background-image:url('media/question-mark-background-1909040_960_720.png');
+}
+
+H1 {
+    color:rgb(5, 5, 5);
+    text-align: center;
+    text-decoration-line: underline;
+    letter-spacing: 0.5px;
+}
+
+p {
+    color:black;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+    color:goldenrod;
+    letter-spacing: 0.5px;
+}
+
+ul {
+    color:goldenrod;
+    letter-spacing: 0.5px;
+}
+
+a {
+    text-decoration: none;
+    color: maroon
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: goldenrod;
+    color: black;
+    font-size: 15px;
+    padding: 5px 20px ;
+    margin-left: 10px ;
+    margin-right: 50px;
+    border: 2px solid black
+}
+
+button:hover {
+    background-color: maroon;
+    color: white;
+}
+
+img {
+    border: 2px solid black;
+}
+
+p {
+    font-size: 17px;
+}
+
+#CA1 {
+    text-decoration: underline;
+    font-style: italic;
+    color: green;
+}
+
+#CA2 {
+    text-decoration: underline;
+    font-style: italic;
+    color: green;
+}
+
+#CA3{
+    text-decoration: underline;
+    font-style: italic;
+    color: green;
+}
+
+#CA4 {
+    text-decoration: underline;
+    font-style: italic;
+    color: green;
+}
